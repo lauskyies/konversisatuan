@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Konversi Satuan Kimia", page_icon="🧪")
 
-st.title("🧪 Konversi Satuan Kimia")
+st.title("🧪Konversi Satuan Kimia")
 
 # Fungsi konversi
 def konversi_satuan(nilai: float, dari: str, ke: str) -> float:
